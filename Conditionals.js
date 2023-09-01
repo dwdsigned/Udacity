@@ -14,7 +14,7 @@ if ((shirtWidth >= 18 && shirtWidth < 20) && (shirtLength >= 28 && shirtLength <
 } else if ((shirtWidth >= 26 && shirtWidth < 28) && (shirtLength >= 33 && shirtLength < 34) && (shirtSleeve >= 9.63 && shirtSleeve < 10.13)) {
     console.log("2XL");
 } else if ((shirtWidth >= 28 && shirtWidth < 30) && (shirtLength >= 34 && shirtLength < 35) && (shirtSleeve >= 10.13 && shirtSleeve < 10.38)) {
-    console.log("2XL");
+    console.log("3XL");
 } else {
   console.log("N/A");
 }
