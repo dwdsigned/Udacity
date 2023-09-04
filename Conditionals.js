@@ -31,3 +31,28 @@ let category;
 category = !eatsPlants ? "carnivore" 
 	: !eatsAnimals ? "herbivore"
 	: "omnivore";
+
+
+const eatsPlants = false;
+const eatsAnimals = false;
+let category;
+// your code goes here
+category = !eatsPlants ? "carnivore"
+	: !eatsAnimals ? "herbivore"
+	: eatsAnimals ? "omnivore" : "undefined";
+
+
+
+// Corrected code from Session lead *****
+const eatsPlants = false;
+const eatsAnimals = false;
+let category;
+
+// your code goes here
+category = eatsAnimals && eatsPlants 
+   ? "omnivore"
+   : eatsPlants 
+        ? "herbivore"
+	    : eatsAnimals 
+              ? "carnivore" 
+              : "undefined";
