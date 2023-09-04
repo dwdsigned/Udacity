@@ -21,3 +21,13 @@ if ((shirtWidth >= 18 && shirtWidth < 20) && (shirtLength >= 28 && shirtLength <
 
 
 8.13, 8.38, 8.63, 8.88, 9.63, 10.13
+
+
+const eatsPlants = false;
+const eatsAnimals = false;
+let category;
+
+// your code goes here
+category = !eatsPlants ? "carnivore" 
+	: !eatsAnimals ? "herbivore"
+	: "omnivore";
