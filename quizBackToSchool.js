@@ -37,4 +37,4 @@ switch (education) {
     salary = 84396;
 }
 
-console.log("In 2015, a person with a(n) "+education+" earned an average of $"+salary.toLocaleString("en-US")"+/year."
+console.log("In 2015, a person with a(n) "+education+" earned an average of $"+salary.toLocaleString("en-US")+"/year."
