@@ -30,3 +30,14 @@ while (x <= 20) {
     // increment x
   	x = x + 1;
 }
+
+let num = 99;
+
+while (num > 0 && num < 100) {
+    // check value of num
+  	console.log(num+" bottles of juice on the wall! "+num+" bottles of juice! Take one down, pass it around... "+(num-1)+" bottles of juice on the wall!");
+    // print lyrics using num
+    // don't forget to check pluralization on the last line!
+    // decrement num
+  	num = num - 1;
+}
