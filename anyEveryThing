@@ -1,0 +1,14 @@
+let testimonials = document.querySelector('.testimonials');
+let testimonialsHead = document.createElement('h2');
+testimonials.appendChild(testimonialsHead);
+testimonialsHead.textContent = "Advice for New Udacity Students";
+let testimonialsPara = document.createElement('p');
+
+'Advice for New Udacity Students'
+testimonialsPara.textContent = `Don't take Udacity with out learning the basics of the topics you are interested in. Don't expect you'll finish in their estimated time frame unless you're already familiar with the subject.`;
+"Don't take Udacity with out learning the basics of the topics you are interested in. Don't expect you'll finish in their estimated time frame unless you're already familiar with the subject."
+let advicePara = testimonialsPara.textContent;
+undefined
+testimonialsPara
+<p>​…​</p>​"Don't take Udacity with out learning the basics of the topics you are interested in. Don't expect you'll finish in their estimated time frame unless you're already familiar with the subject."</p>​
+testimonialsHead.insertAdjacentElement("afterend", testimonialsPara);
